@@ -1,0 +1,17 @@
+---
+manifest_version: "1"
+name: gaja_lit
+description: ~
+slots:
+
+  - id: gaja_lit
+    provisioning:
+      strategy: create
+      deferred: false
+    dna:
+      bundled: "../dna/workdir/gaja_lit.dna"
+      properties: ~
+      uuid: ~
+      version: ~
+      clone_limit: 0
+
