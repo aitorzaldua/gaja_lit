@@ -96,7 +96,8 @@ export class FooterMessage extends LitElement{
 
     .app-footer {
       font-size: calc(12px + 0.5vmin);
-      align-items: center;
+      display: flex;
+      justify-content: center;
       color: green;
     }
 
