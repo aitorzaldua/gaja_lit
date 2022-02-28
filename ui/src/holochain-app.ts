@@ -1,6 +1,7 @@
 import { LitElement, css, html } from 'lit';
 import { customElement, state } from 'lit/decorators.js';
 import { AppWebsocket } from '@holochain/conductor-api';
+import { SidebarNavi} from '../views/navigation/SidebarNavi';
 
 @customElement('holochain-app')
 export class HolochainApp extends LitElement {
