@@ -20,6 +20,7 @@ export class HeaderNavi extends LitElement{
       display: flex;
       justify-content: center;
       color: green;
+      padding-bottom: 20px;
     }
 
   `;
@@ -80,6 +81,7 @@ export class HolochainApp extends LitElement {
       margin: 0 auto;
       text-align: center;
       background-color: var(--lit-element-background-color);
+      padding-top: 60px;
     }
 
     main {
