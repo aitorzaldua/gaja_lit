@@ -2,6 +2,7 @@ import { LitElement, css, html } from 'lit';
 import { customElement, state } from 'lit/decorators.js';
 import { AppWebsocket } from '@holochain/conductor-api';
 
+//Header
 @customElement("header-navi")
 export class HeaderNavi extends LitElement{
     render() {
@@ -12,6 +13,7 @@ export class HeaderNavi extends LitElement{
 
 }
 
+//Body
 @customElement('holochain-app')
 export class HolochainApp extends LitElement {
   @state() postHash: string | undefined;
@@ -36,6 +38,7 @@ export class HolochainApp extends LitElement {
       provenance: cellData.cell_id[1],
     });
   }
+  
 
   render() {
     return html`
@@ -99,4 +102,15 @@ export class HolochainApp extends LitElement {
       margin-left: 5px;
     }
   `;
+}
+
+//Footer
+@customElement("footer-message")
+export class FooterMessage extends LitElement{
+    render() {
+        return html`
+        <h1>Hi, this is the footer</h1>
+        `;
+    }
+
 }
