@@ -62,15 +62,6 @@ export class HolochainApp extends LitElement {
           >`
         : html`<span>Creating...</span>`}
 
-      <p class="app-footer">
-        🚽 Made with love by
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/open-wc"
-          >open-wc</a
-        >.
-      </p>
     `;
   }
 
@@ -109,7 +100,15 @@ export class HolochainApp extends LitElement {
 export class FooterMessage extends LitElement{
     render() {
         return html`
-        <h1>Hi, this is the footer</h1>
+        <p class="app-footer">
+        Made with love by
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://draftdigital.org"
+          >draft digital</a
+        >.
+      </p>
         `;
     }
 
