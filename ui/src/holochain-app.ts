@@ -7,13 +7,15 @@ import { AppWebsocket } from '@holochain/conductor-api';
 export class HeaderNavi extends LitElement{
     render() {
         return html`
-        <h1>Hi, this is the Header</h1>
+        <p class="app-header">
+        Made with love by
+        </p>
         `;
     }
 
     static styles = css`
 
-    .h1 {
+    .app-header {
       font-size: calc(12px + 0.5vmin);
       display: flex;
       justify-content: center;
