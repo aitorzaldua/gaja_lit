@@ -45,7 +45,8 @@ export class HolochainApp extends LitElement {
       <main>
       ${this.postHash
         ? html`<span
-            >Created new Holochain entry! Post with hash: ${this.postHash}</span
+            >Created new Holochain entry! 
+            Post with this hash: ${this.postHash}</span
           >`
         : html`<span>Creating...</span>`}       
       </main>
