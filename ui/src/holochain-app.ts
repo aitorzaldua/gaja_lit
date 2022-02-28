@@ -8,7 +8,7 @@ export class HeaderNavi extends LitElement{
     render() {
         return html`
         <p class="app-header">
-        Made with love by
+        Welcome to Gaja
         </p>
         `;
     }
