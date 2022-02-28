@@ -11,6 +11,17 @@ export class HeaderNavi extends LitElement{
         `;
     }
 
+    static styles = css`
+
+    .h1 {
+      font-size: calc(12px + 0.5vmin);
+      display: flex;
+      justify-content: center;
+      color: green;
+    }
+
+  `;
+
 }
 
 //Body
