@@ -2,11 +2,11 @@ import { LitElement, css, html } from 'lit';
 import { customElement, state } from 'lit/decorators.js';
 import { AppWebsocket } from '@holochain/conductor-api';
 
-@customElement("sidebar-navi")
-export class SidebarNavi extends LitElement{
+@customElement("header-navi")
+export class HeaderNavi extends LitElement{
     render() {
         return html`
-        <h1>Hi lit Component</h1>
+        <h1>Hi, this is the Header</h1>
         `;
     }
 
