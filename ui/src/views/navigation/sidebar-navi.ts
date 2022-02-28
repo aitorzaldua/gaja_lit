@@ -1,8 +1,8 @@
 import { BaseComponent } from "../BaseComponents";
 import { html } from "lit";
-import { customElements } from "lit/decorators.js";
+import { customElement } from "lit/decorators.js";
 
-@customElements("sidebar-navi")
+@customElement("sidebar-navi")
 export class SidebarNavi extends BaseComponent{
     render() {
         return html`
