@@ -83,15 +83,6 @@ export class HolochainApp extends LitElement {
     main {
       flex-grow: 1;
     }
-
-    .app-footer {
-      font-size: calc(12px + 0.5vmin);
-      align-items: center;
-    }
-
-    .app-footer a {
-      margin-left: 5px;
-    }
   `;
 }
 
@@ -102,13 +93,13 @@ export class FooterMessage extends LitElement{
         return html`
         <p class="app-footer">
         Made with love by
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://draftdigital.org"
-          >draft digital</a
-        >.
-      </p>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://draftdigital.org"
+            >draft digital</a
+          >.
+        </p>
         `;
     }
   
@@ -117,6 +108,7 @@ export class FooterMessage extends LitElement{
     .app-footer {
       font-size: calc(12px + 0.5vmin);
       align-items: center;
+      color: green;
     }
 
     .app-footer a {
