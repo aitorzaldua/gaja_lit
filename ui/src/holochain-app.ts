@@ -111,5 +111,17 @@ export class FooterMessage extends LitElement{
       </p>
         `;
     }
+  
+    static styles = css`
+
+    .app-footer {
+      font-size: calc(12px + 0.5vmin);
+      align-items: center;
+    }
+
+    .app-footer a {
+      margin-left: 5px;
+    }
+  `;
 
 }
