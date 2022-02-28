@@ -43,25 +43,13 @@ export class HolochainApp extends LitElement {
   render() {
     return html`
       <main>
-        <h1>${this.title}</h1>
-
-        <p>Edit <code>src/holochain-app.ts</code> and save to reload.</p>
-        <a
-          class="app-link"
-          href="https://open-wc.org/guides/developing-components/code-examples"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code examples
-        </a>
-      </main>
-
       ${this.postHash
         ? html`<span
             >Created new Holochain entry! Post with hash: ${this.postHash}</span
           >`
-        : html`<span>Creating...</span>`}
-
+        : html`<span>Creating...</span>`}       
+      </main>
+      
     `;
   }
 
